@@ -7,7 +7,7 @@ It is a command line tool that simplifies fixing Go syntax issues.
 
 # Install
 
-	go install github.com/cheikhshift/god
+	go get github.com/cheikhshift/god
 
 
 # Usage
