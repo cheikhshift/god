@@ -1,9 +1,9 @@
 # Go Debug
-Go syntax helper.
+Go syntax checker.
 
 ![](gd.png)
 
-It is a command line tool that simplifies fixing Go syntax issues.
+It is a command line tool that simplifies finding and fixing Go syntax issues.
 
 # Install
 
