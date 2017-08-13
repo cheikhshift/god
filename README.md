@@ -1,7 +1,7 @@
 # Go Debug
 Go syntax checker.
 
-![](gd.png)
+
 
 It is a command line tool that simplifies finding and fixing Go syntax issues.
 
@@ -18,3 +18,6 @@ It is a command line tool that simplifies finding and fixing Go syntax issues.
 # Sample 
 
 ![](godgo.gif)
+
+
+![](gd.png)
