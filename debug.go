@@ -41,14 +41,14 @@ func BytesToString(b []byte) string {
 
 func main() {
 	fil := ""
-	 if len(os.Args) > 1 {
+	 if len(os.Args) == 2  {
 
-	 	fil = strings.Join(os.Args[1:], " " )
+	 	fil =  "go run " + strings.Join(os.Args[1], " " )
 	 } else {
-	 		fil= ""
+	 		fil= "go build"
 	 }
 	 	
-	 	 log_build,err := RunCmdSmart("go run " + fil)
+	 	 log_build,err := RunCmdSmart(fil)
 						 if err != nil {
 						 	//fmt.Println(err.Error())
 						  color.Red("Your build failed, Here is why :>")
